@@ -1,0 +1,22 @@
+{
+     "version": "0.2.0",
+    "configurations": [
+        {
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/src/ProcessesKiller/bin/Debug/netcoreapp3.1/ProcessesKiller.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/ProcessesKiller",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach",
+            "processId": "${command:pickProcess}"
+        }
+    ]
+}
